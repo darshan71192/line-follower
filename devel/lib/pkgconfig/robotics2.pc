@@ -1,0 +1,8 @@
+prefix=/home/chirayu/catkin_ws/devel
+
+Name: robotics2
+Description: Description of robotics2
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/chirayu/catkin_ws/devel/lib 
+Requires: 

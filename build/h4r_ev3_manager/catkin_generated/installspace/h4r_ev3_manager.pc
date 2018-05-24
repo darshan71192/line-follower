@@ -1,0 +1,8 @@
+prefix=/home/chirayu/catkin_ws/install
+
+Name: h4r_ev3_manager
+Description: Description of h4r_ev3_manager
+Version: 0.0.0
+Cflags: -I/home/chirayu/catkin_ws/install/include
+Libs: -L/home/chirayu/catkin_ws/install/lib 
+Requires: roscpp

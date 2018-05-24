@@ -1,0 +1,8 @@
+prefix=/home/chirayu/catkin_ws/devel
+
+Name: h4r_ev3_control
+Description: Description of h4r_ev3_control
+Version: 0.0.0
+Cflags: -I/home/chirayu/catkin_ws/src/h4r_ev3_control/include
+Libs: -L/home/chirayu/catkin_ws/devel/lib -lev3_control
+Requires: controller_interface hardware_interface sensor_msgs realtime_tools h4r_ev3_msgs
