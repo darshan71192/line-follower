@@ -61,8 +61,13 @@ public:
 	  void callback(const sensor_msgs::RangeConstPtr& msg1, const sensor_msgs::IlluminanceConstPtr& msg2)
 	  {
 
+           std_msgs::Float64 motor_a;
+           motor_a.data=5.0;
 
           cout<< "obstcale=: "<<msg1->range<<endl<<"reflection: "<<msg2->illuminance<<endl;
+
+          pub.publish(motor_a);
+
 
 	  }
 
