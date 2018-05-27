@@ -50,7 +50,6 @@ class Alignment
 		nh_ = nh;
 		sync.registerCallback(boost::bind(&Alignment::callback, this, _1, _2, _3, _4));
 		pub = nh_.advertise<std_msgs::Float64>("/ev3dev/OutPortA/command", 1);
-		pub.publish();
 		pub1 = nh_.advertise<std_msgs::Float64>("/ev3dev/OutPortB/command", 1);
 	}
 
